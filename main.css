@@ -5,8 +5,27 @@ body {
     flex-direction: column;
 }
 
+header {
+    text-align: center;
+}
+
 .main {
+    flex-direction: row;
+    flex-wrap: wrap;
     flex: 1;
+}
+
+.meCard {
+    background-color: slategrey;
+    width: 50%;
+    margin: 1%;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.image__meCard {
+    max-width: 100%;
 }
 
 footer {
