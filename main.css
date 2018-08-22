@@ -19,13 +19,21 @@ header {
     background-color: slategrey;
     width: 50%;
     margin: 1%;
-    text-align: center;
+    text-align: left;
     border-style: solid;
     box-shadow: 10px 10px 5px grey;
 }
 
-.image__meCard {
+.image-meCard {
     max-width: 100%;
+}
+
+.header-meCard {
+    text-align: center;
+}
+
+.description-meCard {
+    padding: 10px;
 }
 
 footer {
