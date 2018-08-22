@@ -9,6 +9,7 @@ header {
     text-align: center;
     background-color: rgb(47, 187, 47);
     border-bottom: solid;
+    padding: 5px;
 }
 
 .main {
