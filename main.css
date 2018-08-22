@@ -5,8 +5,35 @@ body {
     flex-direction: column;
 }
 
+header {
+    text-align: center;
+}
+
 .main {
+    flex-direction: row;
+    flex-wrap: wrap;
     flex: 1;
+}
+
+.meCard {
+    background-color: slategrey;
+    width: 50%;
+    margin: 1%;
+    text-align: left;
+    border-style: solid;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.image-meCard {
+    max-width: 100%;
+}
+
+.header-meCard {
+    text-align: center;
+}
+
+.description-meCard {
+    padding: 10px;
 }
 
 footer {
