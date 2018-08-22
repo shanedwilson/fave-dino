@@ -1,42 +1,44 @@
 body {
     background-color: green;
-    display: flex;
+    /* display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 header {
     text-align: center;
+    background-color: rgb(47, 187, 47);
+    border-bottom: solid;
+    padding: 5px;
 }
 
 .main {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1;
 }
 
-.meCard {
+.meCard, .dinoCard {
     background-color: slategrey;
-    width: 50%;
+    width: 45%;
     margin: 1%;
     text-align: left;
     border-style: solid;
     box-shadow: 10px 10px 5px grey;
 }
 
-.image-meCard {
+.image-meCard, .image-dinoCard {
     max-width: 100%;
 }
 
-.header-meCard {
+.header-meCard, .header-dinoCard {
     text-align: center;
 }
 
-.description-meCard {
+.description-meCard, .description-dinoCard {
     padding: 10px;
 }
 
 footer {
-    
     float: right;
 }
